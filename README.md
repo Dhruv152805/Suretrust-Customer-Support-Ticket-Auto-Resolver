@@ -3,7 +3,6 @@
 **NLP + ML + LLM-powered** system that automatically classifies customer support tickets and suggests solutions using semantic search over past resolved tickets.
 
 ## 🏗️ Architecture
-
 ```
 User Complaint
      │
