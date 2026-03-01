@@ -1,0 +1,80 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+
+# ===============================
+# ML / Data (IMPORTANT)
+# ===============================
+data/
+models/
+*.pkl
+*.joblib
+*.h5
+*.bin
+*.pt
+*.ckpt
+*.model
+*.onnx
+
+# BERT checkpoints / Transformers
+*.safetensors
+*.jsonl
+
+# FAISS
+*.index
+
+# Word embeddings
+*.vec
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# System files
+# ===============================
+desktop.ini
+.DS_Store
+
+# ===============================
+# Your special folders
+# ===============================
+.zencoder/
+.zenflow/
+
+# ===============================
+# Tests (optional - comment out if you want to include tests)
+# ===============================
+tests/

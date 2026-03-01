@@ -1,0 +1,40 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+
+# NLP
+spacy>=3.7
+nltk>=3.8
+
+# Word2Vec
+gensim>=4.3
+
+# XGBoost
+xgboost>=2.0
+
+# Transformers (BERT)
+transformers>=4.35
+torch>=2.1
+datasets>=2.14
+
+# Semantic Search
+sentence-transformers>=2.2
+faiss-cpu>=1.7
+
+# API
+fastapi>=0.104
+uvicorn>=0.24
+pydantic>=2.5
+
+# Data
+kagglehub>=0.2
+
+# Utilities
+joblib>=1.3
+tqdm>=4.66
+matplotlib>=3.8
+seaborn>=0.13
+
+# Imbalanced learning
+imbalanced-learn>=0.11
