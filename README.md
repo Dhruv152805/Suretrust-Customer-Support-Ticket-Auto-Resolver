@@ -110,34 +110,6 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 
 Or visit **http://127.0.0.1:8000/docs** for the interactive Swagger UI.
 
-## 🚢 Deployment
-
-### Option 1: Docker (Production Recommended)
-
-Requirements: Docker & Docker Compose
-
-```bash
-# Build and start the container
-docker-compose up --build -d
-
-# View logs
-docker-compose logs -f api
-```
-
-### Option 2: Production Script (Windows)
-
-```bash
-./run_prod.bat
-```
-
-This runs the API using `uvicorn` with 4 worker processes for handling concurrent requests.
-
-### Option 3: Manual Production Run (Linux/Mac)
-
-```bash
-export PYTHONPATH=.
-uvicorn src.app:app --host 0.0.0.0 --port 8000 --workers 4
-```
 
 ## 📊 Model Comparison
 
