@@ -133,6 +133,3 @@ Edit `src/config.py` to adjust:
 - `TOP_N_CATEGORIES` — number of company categories to keep
 - Model hyperparameters (learning rate, epochs, etc.)
 
-## 📄 License
-
-For educational/portfolio purposes.
